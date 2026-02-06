@@ -9,8 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         background: resolve(__dirname, 'src/background/background.js'),
-        content: resolve(__dirname, 'src/content/content.js'),
-        popup: resolve(__dirname, 'src/popup/popup.html')
+        content: resolve(__dirname, 'src/content/content.js')
+        // Remove popup.js from rollup input
       },
       output: {
         entryFileNames: '[name].js',
@@ -36,6 +36,14 @@ export default defineConfig({
         },
         {
           src: 'src/popup/popup.css',
+          dest: '.'
+        },
+        {
+          src: 'src/popup/popup.html',
+          dest: '.'
+        },
+        {
+          src: 'src/popup/popup.js', // Copy popup.js directly
           dest: '.'
         }
       ]

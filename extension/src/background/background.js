@@ -303,7 +303,7 @@ chrome.runtime.onInstalled.addListener((details) => {
     
     // Open welcome page
     chrome.tabs.create({
-      url: 'https://github.com/yourusername/cogniclear-extension'
+      url: 'https://github.com/27July/navigoat'
     });
   }
 });

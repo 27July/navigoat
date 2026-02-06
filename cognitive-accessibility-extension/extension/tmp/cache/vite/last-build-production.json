@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "errors": "Check that your vite.json configuration file is available in the load path:\n\n\tNo such file or directory @ rb_sysopen - C:/Users/CHAN KEE QING/Downloads/cogniclear-v2-improved/cognitive-accessibility-extension/extension/config/vite.json\n\n",
+  "timestamp": "2026-02-06 15:39:15",
+  "vite_ruby": "3.8.0",
+  "digest": "2e33c7db709950d7a8351612747a9de2bc7d399b"
+}

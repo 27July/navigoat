@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigoat</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h1>🐐 Navigoat</h1>
+      <p class="subtitle">Adaptive Navigation Assistant</p>
+    </header>
+    
+    <main class="popup-main">
+      <div class="status-section">
+        <div class="status-indicator" id="status-indicator">
+          <span class="status-dot" id="status-dot"></span>
+          <span class="status-text" id="status-text">Ready</span>
+        </div>
+      </div>
+      
+      <div class="action-section">
+        <button class="primary-button" id="toggle-button">
+          <span id="button-text">Simplify This Page</span>
+        </button>
+        
+        <div class="info-box" id="info-box">
+          <p>Click the button above to simplify the current webpage into three easy categories:</p>
+          <ul>
+            <li><strong>Navigation</strong> - Menu items and page links</li>
+            <li><strong>Action/Task</strong> - Primary actions like submit, purchase</li>
+            <li><strong>Help/Support</strong> - Contact, FAQ, and help resources</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="settings-section">
+        <h3>Settings</h3>
+        
+        <div class="setting-item">
+          <label for="api-endpoint">API Endpoint:</label>
+          <input 
+            type="text" 
+            id="api-endpoint" 
+            placeholder="http://localhost:3000/api/simplify"
+            class="input-field"
+          />
+          <button class="secondary-button" id="save-settings">Save</button>
+        </div>
+        
+        <div class="setting-item">
+          <button class="secondary-button" id="clear-cache">Clear Cache</button>
+          <span class="cache-info" id="cache-info"></span>
+        </div>
+      </div>
+      
+      <div class="stats-section" id="stats-section" style="display: none;">
+        <h3>Last Processing</h3>
+        <div class="stat-item">
+          <span class="stat-label">Processing Time:</span>
+          <span class="stat-value" id="processing-time">-</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Elements Found:</span>
+          <span class="stat-value" id="elements-count">-</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Cached:</span>
+          <span class="stat-value" id="cached-status">-</span>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="popup-footer">
+      <p>INTUition 2026 Hackathon</p>
+      <a href="https://github.com/yourusername/navigoat-extension" target="_blank">View on GitHub</a>
+    </footer>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

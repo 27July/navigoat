@@ -7,7 +7,7 @@ console.log('[CogniClear] Background service worker initialized');
 
 // Configuration
 const CONFIG = {
-  API_ENDPOINT: 'http://localhost:3000/api/simplify',
+  API_ENDPOINT: 'http://localhost:5000/api/simplify',
   CACHE_DURATION: 1000 * 60 * 30, // 30 minutes
   MAX_RETRIES: 3
 };
@@ -237,7 +237,7 @@ chrome.runtime.onInstalled.addListener((details) => {
     
     // Open welcome page
     chrome.tabs.create({
-      url: 'https://github.com/yourusername/cogniclear-extension'
+      url: 'https://github.com/27July/navigoat'
     });
   }
 });

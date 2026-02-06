@@ -51,15 +51,21 @@ Navigoat uses AI to:
 ---
 
 ## Demo Pictures:
-![Screenshot](images/SS1.png)
-![Screenshot](images/SS2.png)
-![Screenshot](images/SS3.png)
-![Screenshot](images/SS4.png)
-![Screenshot](images/SS5.png)
-![Screenshot](images/SS6.png)
-![Screenshot](images/SS7.png)
-![Screenshot](images/SS8.png)
-![Screenshot](images/SS9.jpg)
+<p>
+  <img src="images/SS1.png" width="250" />
+  <img src="images/SS2.png" width="250" />
+  <img src="images/SS3.png" width="250" />
+</p>
+<p>
+  <img src="images/SS4.png" width="250" />
+  <img src="images/SS5.png" width="250" />
+  <img src="images/SS6.png" width="250" />
+</p>
+<p>
+  <img src="images/SS7.png" width="250" />
+  <img src="images/SS8.png" width="250" />
+  <img src="images/SS9.jpg" width="250" />
+</p>
 
 
 

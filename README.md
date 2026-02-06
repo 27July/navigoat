@@ -68,7 +68,8 @@ Navigoat uses AI to:
 </p>
 
 ## Demo Video:
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=bdo4nMK3f9Q)
+[![Watch the demo](https://img.youtube.com/vi/bdo4nMK3f9Q/hqdefault.jpg)](https://www.youtube.com/watch?v=bdo4nMK3f9Q)
+
 
 
 

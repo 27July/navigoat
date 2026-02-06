@@ -67,6 +67,9 @@ Navigoat uses AI to:
   <img src="images/SS9.jpg" width="250" />
 </p>
 
+## Demo Video:
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=bdo4nMK3f9Q)
+
 
 
 ## 🚀 Quick Start Guide (15 Minutes)
